@@ -35,6 +35,7 @@ for mirror_area in mirror_areas:
         pointErr=0.0,  # Pointing error in deg, default 0
         res=30,  # Ground resolution m
         h=400000,  # Satellite Altitude m
+        tau=0.8,  # Atmospheric transmission, fractional percentage
         dutyCyc=1.0,
         unAmbigR=150,
     )
@@ -57,6 +58,7 @@ for years_amount in number_of_years:
         pointErr=0.0,
         res=30,
         h=400000,
+        tau=0.8,
         dutyCyc=1.0,
         unAmbigR=150,
     )
@@ -79,6 +81,7 @@ for laser_eff in laser_efficiencies:
         pointErr=0.0,
         res=30,
         h=400000,
+        tau=0.8,
         dutyCyc=1.0,
         unAmbigR=150,
     )
@@ -101,6 +104,7 @@ for payload_power in payload_powers:
         pointErr=0.0,
         res=30,
         h=400000,
+        tau=0.8,
         dutyCyc=1.0,
         unAmbigR=150,
     )
